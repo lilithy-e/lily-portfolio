@@ -28,7 +28,8 @@ h3 {
 .content h2 {
   font-size: 32px;
 }
-h3 {
+
+.content h3 {
   font-size: 20px;
   opacity: 0.7;
 }
@@ -81,7 +82,7 @@ h3 {
   margin: 10px;
 }
 
-.content-container p {
+.content p {
   background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
