@@ -54,6 +54,10 @@ footer .social-links a{
   transition: all 100ms ease-in-out;
 }
 
+.work-weather-pic{
+  max-height: 274px;
+}
+
 footer .social-links a:hover{
   color: white;
   background-color: var(--primary-color);
