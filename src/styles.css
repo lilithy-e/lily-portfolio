@@ -3,6 +3,7 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 @media (max-width: 576px){
 .project-link {
     display: block;
@@ -10,9 +11,27 @@
     margin: 0 20px;
 }}
 
-footer {
-  margin: 50px;
+.project-links {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
+.project-links:hover{
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.about-photo{
+  border-radius: 10px;
+}
+footer {
+  margin: 50px 0px;
+}
+
 footer .email-link{
   text-decoration: none;
   text-align: center;
@@ -24,6 +43,7 @@ footer .email-link:hover{
   color:var(--primary-color);
 }
 
+.contact-links,
 footer .social-links a{
   margin:0 20px;
   color: var(--primary-color);
@@ -68,15 +88,12 @@ body {
   font-size: 20px;
   opacity: 0.7;
 }
-.project-links {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+
+.content p {
+  font-size: 18px;
+  line-height: 1.5;
 }
+
 .page-links {
   margin-top: 40px;
   display: flex;
@@ -89,17 +106,15 @@ body {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-}
-.contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  transition: all 100ms ease-in-out;
 }
 
-.about-link {
+.page-links a:hover{
+  background-color: white;
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  box-shadow: var(--box-shadow);
 }
 
 .homepage-link {
@@ -117,30 +132,6 @@ body {
   margin: 10px;
 }
 
-.content p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-/*
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-.email-link:hover {
-  text-decoration: underline;
-}
-
-.email-link:visited {
-  color: red;
-}
-*/
 .project-pics {
   width: 100;
 }
